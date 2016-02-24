@@ -3,9 +3,10 @@ var app = express();
 var path = require("path");
 
 
+process.env.PWD = process.cwd()
 // app.use(express.static('static'));
-app.use(express.static(__dirname + '/static'));
-
+// app.use(express.static(__dirname + '/static'));
+app.use(express.static(process.env.PWD + '/static'));
 
 
 app.get('/',function(req,res){
