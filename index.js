@@ -19,6 +19,11 @@ app.get('/fazenda',function(req,res){
   //__dirname : It will resolve to your project folder.
 });
 
+app.get('/fotos',function(req,res){
+  res.sendFile(path.join(__dirname+'/views/fotos.html'));
+  //__dirname : It will resolve to your project folder.
+});
+
 
 // app.get('/', function (req, res) {
 //   res.send('Hello World!');
