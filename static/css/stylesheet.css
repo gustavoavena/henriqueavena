@@ -1,4 +1,6 @@
-
+.main_header {
+	background-color : black;
+}
 
 #titulo_main {
 	/*color : red;*/
@@ -15,7 +17,6 @@ width: 500px;
 height: 400px;
 }
 
-#slide_down_button {
-	/*position: absolute;
-	top: 90%;*/
+.my_header {
+	background-color: transparent;
 }
